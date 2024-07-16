@@ -1,0 +1,10 @@
+Without Testing lib
+Front End
+
+goto FrontEnd/todo-frontend
+npm start
+
+BackEnd
+
+goto Backend
+node index.js
