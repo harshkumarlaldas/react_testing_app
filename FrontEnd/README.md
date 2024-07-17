@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +69,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+## Jest install chatGPT
+npm install --save-dev jest
+
+npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react
+
+Create jest.config.js
+Create babel.config.js
+
+Make the Component.test.js
+
+## If need react-testing-library as well
+npm install --save-dev jest babel-jest @testing-library/react @testing-library/jest-dom @testing-library/user-event @testing-library/react-hooks
+
+legacy version for resolving dependencies
+npm install --save-dev babel-jest @testing-library/react @testing-library/jest-dom @testing-library/user-event @testing-library/react-hooks --legacy-peer-deps
