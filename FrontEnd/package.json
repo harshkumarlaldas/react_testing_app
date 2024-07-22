@@ -1,4 +1,5 @@
 {
+  "homepage": "https://harshkumarlaldas.github.io/react_testing_app/FrontEnd",
   "name": "todo-frontend",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
